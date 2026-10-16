@@ -1,0 +1,280 @@
+/* General styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px 16px;
+    background-color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #343b41;
+    line-height: 1.5;
+}
+
+.cv-container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #f3f3f3;
+}
+
+/* Header */
+.cv-header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 198px;
+    padding: 38px 35px;
+    background-color: #5794b0;
+    border-top: 25px solid #293846;
+}
+
+.header-text h1 {
+    margin: 0;
+    color: white;
+    font-size: 35px;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.header-text p {
+    margin: 6px 0 0;
+    color: white;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+.profile-photo {
+    width: 166px;
+    height: 166px;
+    border: 6px solid white;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+/* Main two-column layout */
+.cv-content {
+    display: flex;
+    align-items: stretch;
+}
+
+.sidebar {
+    width: 31%;
+    padding: 14px 11px;
+    background-color: #293846;
+}
+
+.main-content {
+    width: 69%;
+    padding: 14px 14px 22px;
+}
+
+/* Sidebar boxes */
+.sidebar-card {
+    margin-bottom: 8px;
+    padding: 17px 15px 15px;
+    border-radius: 8px;
+    background-color: #324656;
+    color: white;
+}
+
+.sidebar-card h2 {
+    margin: 0 0 13px;
+    font-size: 17px;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.sidebar-card ul {
+    margin: 0;
+    padding-left: 15px;
+    padding-bottom: 17px;
+    border-bottom: 2px solid #8798a4;
+}
+
+.sidebar-card li {
+    margin-bottom: 10px;
+    font-size: 13px;
+    overflow-wrap: anywhere;
+}
+
+.sidebar-card li:last-child {
+    margin-bottom: 0;
+}
+
+.personal-list li {
+    margin-bottom: 19px;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main content boxes */
+.content-card {
+    margin-bottom: 20px;
+    padding: 17px 15px;
+    border: 1px solid #dfe5e9;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.content-card:last-child {
+    margin-bottom: 0;
+}
+
+.section-title {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    margin: 0 0 18px;
+    font-size: 19px;
+    line-height: 1.25;
+    text-transform: uppercase;
+}
+
+.section-title::after {
+    content: "";
+    flex: 1;
+    height: 2px;
+    background-color: #a3adb4;
+}
+
+.content-card > p,
+.cv-entry p {
+    margin: 0;
+    color: #626a72;
+    font-size: 14px;
+}
+
+/* Entries: education, experience and projects */
+.cv-entry {
+    position: relative;
+    margin-bottom: 25px;
+    padding-left: 24px;
+}
+
+.cv-entry:last-child {
+    margin-bottom: 0;
+}
+
+.cv-entry::before {
+    content: "•";
+    position: absolute;
+    top: -2px;
+    left: 0;
+    font-size: 19px;
+    color: #343b41;
+}
+
+.entry-heading {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.entry-heading h3 {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.date {
+    flex-shrink: 0;
+    padding-top: 2px;
+    color: #626a72;
+    font-size: 12px;
+}
+
+.cv-entry p {
+    margin-top: 5px;
+}
+
+.cv-entry p + p {
+    margin-top: 10px;
+}
+
+#contact a {
+    color: #626a72;
+    text-decoration: none;
+}
+
+.separator {
+    margin: 0 9px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive layout for mobile screens */
+@media (max-width: 680px) {
+    body {
+        padding: 0;
+    }
+
+    .cv-header {
+        padding: 28px 20px;
+        min-height: 160px;
+        gap: 15px;
+    }
+
+    .header-text h1 {
+        font-size: 25px;
+    }
+
+    .header-text p {
+        font-size: 14px;
+    }
+
+    .profile-photo {
+        width: 108px;
+        height: 108px;
+        border-width: 4px;
+    }
+
+    .cv-content {
+        flex-direction: column;
+    }
+
+    .sidebar,
+    .main-content {
+        width: 100%;
+    }
+
+    .sidebar {
+        padding: 12px;
+    }
+
+    .main-content {
+        padding: 12px;
+    }
+
+    .content-card {
+        margin-bottom: 12px;
+    }
+}
+
+@media (max-width: 400px) {
+    .cv-header {
+        padding: 20px 12px;
+    }
+
+    .header-text h1 {
+        font-size: 21px;
+    }
+
+    .profile-photo {
+        width: 90px;
+        height: 90px;
+    }
+
+    .entry-heading {
+        flex-direction: column;
+        gap: 3px;
+    }
+}
