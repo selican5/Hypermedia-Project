@@ -6,25 +6,26 @@ A single-page CV website for Daniel Carter, a fictional 27-year-old software dev
 
 ### 1.1 User Profile — User Persona
 
-**Name:** Laura Martínez  
-**Age:** 32  
-**Occupation:** IT Recruiter  
+**Name:** Mercè Clara  
+**Age:** 34  
+**Occupation:** Technical Recruiter at Google 
 **Location:** Barcelona, Spain  
-**Digital skills:** High — uses job platforms, company websites and online CVs daily.
+**Digital skills:** Advanced — regularly uses professional networking platforms, recruitment tools and online portfolios.
 
-**Background:** Laura works for a technology company and is responsible for finding candidates for web development positions. She usually reviews several CVs in a short period of time, so she needs information that is easy to find and understand.
+**Background:** Mercè Clara is a fictional technical recruiter who works at Google. Her job is to review applications and identify potential candidates for software development roles. She checks many professional profiles during the day, so she values CVs that are organized, clear and easy to scan. She usually accesses candidate websites from her laptop, but sometimes reviews profiles on her phone.
 
 **Goals:**
-- Quickly identify the candidate's profession and level of experience.
-- Check technical skills, education and previous jobs.
-- See examples of projects to understand the candidate's abilities.
-- Find an email address or phone number to contact the candidate.
+- Quickly understand a candidate's professional profile and experience.
+- Find relevant programming skills and technical knowledge.
+- Review education, previous jobs and personal projects.
+- Identify whether the candidate could be suitable for a software development role.
+- Access contact details without wasting time.
 
-**Needs and expectations:** Laura expects a professional-looking website with clear headings, short descriptions and organized sections. She often works on a laptop but may also check a candidate's profile on her phone.
+**Needs and expectations:** Mercè needs a CV website with a professional appearance, readable text and a clear information hierarchy. She prefers concise descriptions and separate sections that allow her to locate key details quickly.
 
-**Frustrations:** CV websites with too many visual effects, confusing navigation, very small text or important information that is difficult to find.
+**Frustrations:** Disorganized websites, excessive animations, unclear headings, very small text, complicated navigation and missing contact information.
 
-**How our website helps:** The CV places Daniel's name and profession at the top. It separates technical information into a sidebar and gives more space to education, experience and projects. The contact details are easy to locate.
+**How our website helps:** Daniel Carter's CV shows his name and profession immediately in the header. The sidebar groups practical information such as skills, languages and contact details, while the main column presents education, experience and projects in separate boxes. The responsive layout also makes the information easier to read on different screen sizes.
 
 ### 1.2 Information Architecture
 
@@ -52,23 +53,6 @@ The desktop layout uses two columns, while the mobile version displays them vert
 
 ## 2. Figma Design
 
-[View the Daniel Carter CV design in Figma](https://www.figma.com/design/lH2vB1Z7qlbPUWZJMq3txh/Sin-t%C3%ADtulo?node-id=11-2)
+https://www.figma.com/design/lH2vB1Z7qlbPUWZJMq3txh/Sin-t%C3%ADtulo?node-id=0-1&t=mJuFtFWTxvHks4P8-1
 
-## 3. Website Implementation
 
-The project was created with **HTML5 and CSS3**, following the techniques studied in class. No external frameworks were used.
-
-- `index.html` — website content and semantic structure.
-- `style.css` — colors, typography, spacing, Flexbox and responsive styles.
-- `images/daniel-carter.png` — profile photograph.
-
-The page uses HTML elements such as `header`, `aside`, `main`, `section` and `article`. The visual layout is created with CSS, including the Box Model, Flexbox and media queries.
-
-## 4. How to Run the Website
-
-Open `index.html` in a browser, or open the project folder in Visual Studio Code and use Live Server.
-
-## 5. Live Website
-
-The GitHub Pages link will be added after publishing the website.
-      
