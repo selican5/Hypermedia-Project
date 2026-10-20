@@ -21,12 +21,6 @@ A single-page CV website for Daniel Carter, a fictional 27-year-old software dev
 - Identify whether the candidate could be suitable for a software development role.
 - Access contact details without wasting time.
 
-**Needs and expectations:** Mercè needs a CV website with a professional appearance, readable text and a clear information hierarchy. She prefers concise descriptions and separate sections that allow her to locate key details quickly.
-
-**Frustrations:** Disorganized websites, excessive animations, unclear headings, very small text, complicated navigation and missing contact information.
-
-**How our website helps:** Daniel Carter's CV shows his name and profession immediately in the header. The sidebar groups practical information such as skills, languages and contact details, while the main column presents education, experience and projects in separate boxes. The responsive layout also makes the information easier to read on different screen sizes.
-
 ### 1.2 Information Architecture
 
 The website is designed as a single-page CV because the main goal is to present Daniel Carter's professional information in a simple and accessible way. Instead of creating different pages, all the content is organized into sections that can be read by scrolling. This allows visitors, especially recruiters, to find the information they need without having to navigate through several menus.
