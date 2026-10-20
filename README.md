@@ -12,7 +12,7 @@ A single-page CV website for Daniel Carter, a fictional 27-year-old software dev
 **Location:** Barcelona, Spain  
 **Digital skills:** Advanced — regularly uses professional networking platforms, recruitment tools and online portfolios.
 
-**Background:** Mercè Clara is a fictional technical recruiter who works at Google. Her job is to review applications and identify potential candidates for software development roles. She checks many professional profiles during the day, so she values CVs that are organized, clear and easy to scan. She usually accesses candidate websites from her laptop, but sometimes reviews profiles on her phone.
+**Background:** Mercè Clara is a fictional technical recruiter who works at Google. Her job is to review applications and identify potential candidates for software development roles. She checks many professional profiles during the day, so she values CVs that are organized, clear and easy to scan. 
 
 **Goals:**
 - Quickly understand a candidate's professional profile and experience.
