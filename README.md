@@ -49,4 +49,3 @@ https://www.figma.com/design/lH2vB1Z7qlbPUWZJMq3txh/Sin-t%C3%ADtulo?node-id=0-1&
 ## 3. Webpage Link
 
 https://selican5.github.io/Hypermedia-Project/
-
